@@ -1,0 +1,8 @@
+{
+    "branches": [
+      { "id": 1, "bankName": "HDFC", "branchName": "Kolkata", "branchCode": "KOL001" },
+      { "id": 2, "bankName": "HDFC", "branchName": "Mumbai", "branchCode": "MUM001" },
+      { "id": 3, "bankName": "HDFC", "branchName": "Bengaluru", "branchCode": "BLR001" }     
+    ]
+  }
+  

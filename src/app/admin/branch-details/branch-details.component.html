@@ -1,1 +1,17 @@
-<p>branch-details works!</p>
+<div class="heading">All Branches Details</div>
+<div class="container">
+   <table>
+       <tr>
+           <th>Bank Name</th>
+           <th>Branch Name</th>
+           <th>Branch Code</th>
+       </tr>
+        @for(branch of branches; track branch.id){
+            <tr>
+                <td>{{branch.bankName}}</td>
+                <td>{{branch.branchName}}</td>
+                <td>{{branch.branchCode}}</td>
+            </tr>
+        }
+   </table>
+</div>
