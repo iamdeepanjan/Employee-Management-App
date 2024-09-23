@@ -1,0 +1,159 @@
+// .container{
+//     max-width: 500px;
+//     max-height: 400px;
+//     margin: 30px auto;
+//     padding: 20px;
+//     border-radius: 8px;
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+// }
+ 
+// h2{
+//     text-align: center;
+//     font-family: Verdana, Geneva, Tahoma, sans-serif;
+//     font-weight: 500;
+//     font-size: 25px;
+//     color: #333;
+// }
+ 
+// .form-group{
+//     margin-bottom: 33px;
+//     position: relative;
+// }
+ 
+// label{
+//     display: inline-block;
+//     width: 30%;
+//     font-weight: bold;
+//     margin-right: 10px;
+//     box-sizing: border-box;
+// }
+ 
+// input{
+//     width: 60%;
+//     padding: 10px 5px;
+//     border: 1px solid #ccc;
+//     border-radius: 5px;
+//     font-size: 14px;
+// }
+ 
+// #bankname{
+//     border: none;
+//     background-color: rgb(237, 236, 236);
+//     font-family: 'Courier New', Courier, monospace;
+// }
+ 
+// .button{
+//     display: flex;
+//     justify-content: right;
+// }
+ 
+// button{
+//     width: 80px;
+//     padding: 10px;
+//     background-color: #4caf50;
+//     border: none;
+//     border-radius: 10px;
+//     color: #fff;
+//     cursor: pointer;
+//     font-size: 15px;
+// }
+ 
+// button:hover{
+//     background-color: #45a066;
+// }
+ 
+// .error{
+//     font-size: 13px;
+//     color: red;
+//     margin-top: 5px;
+//     margin-left: 166px;
+//     position: absolute;
+// }
+ 
+// @media screen and (max-width: 768px) {
+   
+// }
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+input[type="text"] {
+    width: 94%;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.1);
+}
+
+input[readonly] {
+    background-color: #e8e6e6;
+    cursor: not-allowed;
+}
+
+.error {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        margin: 0 20px;
+    }
+
+    input[type="text"], button[type="submit"] {
+        font-size: 16px;
+    }
+}

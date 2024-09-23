@@ -1,8 +1,34 @@
 {
-    "branches": [
-      { "id": 1, "bankName": "HDFC", "branchName": "Kolkata", "branchCode": "KOL001" },
-      { "id": 2, "bankName": "HDFC", "branchName": "Mumbai", "branchCode": "MUM001" },
-      { "id": 3, "bankName": "HDFC", "branchName": "Bengaluru", "branchCode": "BLR001" }     
-    ]
-  }
-  
+  "branches": [
+    {
+      "id": "d9f1",
+      "bankName": "HDFC",
+      "branchName": "Kolkata",
+      "branchCode": "KOL001"
+    },
+    {
+      "id": "7af2",
+      "bankName": "HDFC",
+      "branchName": "Mumbai",
+      "branchCode": "MUM001"
+    },
+    {
+      "id": "8270",
+      "bankName": "HDFC",
+      "branchName": "Bengaluru",
+      "branchCode": "BLR001"
+    },
+    {
+      "id": "f768",
+      "bankName": "HDFC",
+      "branchName": "Chennai",
+      "branchCode": "CHN001"
+    },
+    {
+      "id": "c616",
+      "bankName": "HDFC",
+      "branchName": "Pune",
+      "branchCode": "PUN001"
+    }
+  ]
+}

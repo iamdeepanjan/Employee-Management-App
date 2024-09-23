@@ -1,1 +1,27 @@
-<p>add-branch works!</p>
+<h2>Add New Branch</h2>
+<div class="container">
+    <form [formGroup]="branchForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="bankName">Bank Name</label>
+            <input type="text" id="bankName" class="form-control" formControlName="bankName" readonly>
+        </div>
+        <div class="form-group">
+            <label for="branchName">Branch Name</label>
+            <input type="text" id="branchName" class="form-control" formControlName="branchName" placeholder="Enter branch name">
+            @if(branchNameRequired){
+                <div class="error">Branch name is required</div>
+            }
+        </div>
+        <div class="form-group">
+            <label for="branchCode">Branch Code</label>
+            <input type="text" id="branchCode" class="form-control" formControlName="branchCode" placeholder="Enter branch code">
+            @if(branchCodeRequired){
+                <div class="error">Branch code is required</div>
+            }
+            @if(branchCodeExists){
+                <div class="error">Branch code should be unique</div>
+            }
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
